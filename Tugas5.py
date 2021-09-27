@@ -42,7 +42,7 @@ def affine_decrypt(cipher, key):
 def main():
     # Mendeklarasikan teks dan kunci
     text = 'ZULFIKAR AHMADI RAFSANJANI'
-    key = [17, 20]
+    key = [3, 5]
  
     # Memanggil fungsi enkripsi
     affine_encrypted_text = affine_encrypt(text, key)
